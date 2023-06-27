@@ -11,6 +11,9 @@
 .form{
     background-color: #FBF7F6;
 }
+.form__background{
+    z-index: -100;
+}
 .form__container{
     justify-content: center;
     position: relative;
@@ -56,4 +59,19 @@
     font-size: 16px;
     font-family: Montserrat;
     letter-spacing: 0.64px;
+}
+.form__button{
+    max-width: 324px;
+    width: 100%;
+    background: #FFB0BA;
+    box-shadow: 3px 3px 0px 3px #DE8E98;
+    border-radius: 100px;
+    border:none;
+    padding: 17px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #9A3C48;
 }
